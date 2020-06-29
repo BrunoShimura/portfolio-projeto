@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #6b6370;
+  background-color: #474b4f;
 }
 
 a {
@@ -29,21 +29,20 @@ img {
 /* Conteudo */
 .background {
 }
-
 .introducao {
-  background: url(/img/green.jpg) center center no-repeat;
+  background: url(/img/green.jpg) center center no-repeat fixed;
 }
 
 .apresentacao {
-  background: url(/img/bike.jpg) center center no-repeat;
+  background: url(/img/bike.jpg) center center no-repeat fixed;
 }
 
 .formacao {
-  background: url(/img/guitar.jpg) center center no-repeat;
+  background: url(/img/guitar.jpg) center center no-repeat fixed;
 }
 
 .projetos {
-  background: url(/img/business.jpg) center center no-repeat;
+  background: url(/img/business.jpg) center center no-repeat fixed;
 }
 
 .fundo {
@@ -159,4 +158,77 @@ h2 {
   * {
     font-size: 30px;
   }
+  .avatar {
+    width: 7%;
+    margin-left: 47%;
+    margin-top: 1%;
+    border-radius: 100%;
+    border: 3px solid;
+    border-color: #61892f;
+  }
+
+  .descricao {
+    background-color: rgba(22, 26, 29, 0.95);
+    width: 48%;
+    margin-left: 50%;
+    margin-top: -5%;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: #61892f;
+    padding: 10% 5% 10% 5%;
+  }
+  .esquerda {
+    background-color: rgba(22, 26, 29, 0.95);
+    width: 48%;
+    margin-left: 2%;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: #61892f;
+    padding: 10% 5% 10% 5%;
+  }
+}
+/* Rodapé */
+.rodape {
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+  text-align: center;
+  background: linear-gradient(to right, #6b6e70, #86c232);
+}
+.social-icons a {
+  font-size: 1.5em;
+  margin-right: 3%;
+}
+.fa {
+  color: #222629;
+}
+.copyright {
+  color: #222629;
+}
+/* login */
+form {
+  width: 100%;
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: #222629;
+  border-radius: 10px;
+}
+.button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 5%;
+  background-color: #222629;
+  color: aliceblue;
+}
+
+.button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+  cursor: pointer;
 }

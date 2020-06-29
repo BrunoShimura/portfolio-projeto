@@ -5,24 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript" src="/js/main.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
   <title>Portifolio</title>
 </head>
 
 <body>
-  <div class="introducao background">
-    <div class="fundo">
-      <img class="avatar" src="/img/img4.png">
-      <div class="descricao">
-        <article class="sobre">
-          <p>Olá <strong>Nathy</strong>!!!</p>
-          <br>
-          <p>
-            Bem Vindo ao meu <strong>Portifólio</strong>
-            <a href="/pages/perfil.html">click</a>
-          </p>
-        </article>
-      </div>
+  <div class="login">
+    <img class="avatar" src="/img/img5.png">
+    <div class="descricao">
+      <form>
+        <h2>Digite seu nome:</h2>
+        <input id="in1" name="in1" value="">
+        <h2>Você não é um robô... então quanto é 4+2?</h2>
+        <input id="in2" name="in2" value="">
+        <div id="alert" class="alert"></div>
+        <input class="button" type="button" onClick="teste(in1.value,in2.value)" value="Entrar">
+      </form>
     </div>
   </div>
 </body>
