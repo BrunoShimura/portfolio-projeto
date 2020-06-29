@@ -3,8 +3,11 @@ function teste(nome, num) {
     document.getElementById("alert").innerHTML =
       "Digite os valores corretamente";
   } else {
-    if (num == 2) entrar();
-    else {
+    if (num == 42) {
+      document.getElementById("alert").innerHTML =
+        '<div class="spinner"></div>';
+      entrar();
+    } else {
       document.getElementById("alert").innerHTML = "Resposta errada";
     }
   }
