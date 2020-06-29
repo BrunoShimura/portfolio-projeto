@@ -1,0 +1,111 @@
+/* Reset */
+* {
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  color: #6b6e70;
+}
+
+body {
+  background-color: #6b6370;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Conteudo */
+.background {}
+
+.introducao {
+  background: url(/img/green.jpg) center center no-repeat;
+}
+
+.apresentacao {
+  background: url(/img/bike.jpg) center center no-repeat;
+}
+
+.formacao {
+  background: url(/img/guitar.jpg) center center no-repeat;
+}
+
+.projetos {
+  background: url(/img/business.jpg) center center no-repeat;
+}
+
+.fundo {
+  background-color: rgba(22, 26, 29, 0.70);
+  padding-bottom: 10%;
+}
+
+.avatar {
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  border: 5px solid;
+  margin-left: 40%;
+  margin-top: 5%;
+  border-color: #61892f;
+}
+
+.descricao {
+  background-color: rgba(22, 26, 29, 0.95);
+  width: 90%;
+  height: auto;
+  margin-top: -10%;
+  margin-left: 5%;
+  border-radius: 20px;
+  border: 5px solid;
+  border-color: #61892f;
+  padding: 10% 5% 10% 5%;
+}
+
+strong {
+  color: #61892f;
+}
+
+p {
+  text-align: center
+}
+
+h2 {
+  text-align: center;
+  color: #61892f;
+}
+
+.icon {
+  width: 30%;
+  margin-left: 36%;
+  padding: 5% 1% 5% 1%;
+}
+
+/* Mobile First*/
+@media screen and (min-width: 480px) {
+  * {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  * {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  * {
+    font-size: 30px;
+  }
+}
