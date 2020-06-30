@@ -27,7 +27,8 @@ img {
 }
 
 /* Conteudo */
-.background {}
+.background {
+}
 
 .introducao {
   background: url(/img/green.jpg) center center no-repeat fixed;
@@ -160,7 +161,7 @@ h2 {
 
   .login {
     background-color: rgba(22, 26, 29, 0.95);
-    width: 40%;
+    width: 58%;
     height: auto;
     margin-top: -5%;
     margin-left: 20%;
@@ -203,7 +204,7 @@ h2 {
 
 @media screen and (min-width: 960px) {
   * {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .avatar {
@@ -238,10 +239,10 @@ h2 {
 
   .login {
     background-color: rgba(22, 26, 29, 0.95);
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-top: -5%;
-    margin-left: 30%;
+    margin-left: 25%;
     border-radius: 20px;
     border: 3px solid;
     border-color: #61892f;
@@ -306,7 +307,7 @@ input {
 .spinner {
   margin: auto;
   border: 8px solid rgba(0, 0, 0, 0.1);
-  border-left-color: #4caf50;
+  border-left-color: #61892f;
   border-radius: 50%;
   width: 50px;
   height: 50px;
