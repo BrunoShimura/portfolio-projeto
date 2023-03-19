@@ -1,9 +1,4 @@
-### Site Pessoal - Portifólio
-
-## [link Protótipo](https://xd.adobe.com/view/eb5e0613-73ff-4071-b6ed-111a3414297a-be0d/)
-
-## [link Projeto](https://portfoliobruno.brunoshimura.vercel.app/)
-
+# Site Pessoal - Portifólio
 ## Wireframe (mão, draw.io, figma)
 
 ![](https://gitlab.com/BrunoShimura/Portfolio/-/wikis/uploads/a5ea9acde72bd6c45c59abede21c0600/wireframe.png)
